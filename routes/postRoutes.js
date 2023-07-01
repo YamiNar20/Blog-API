@@ -1,16 +1,6 @@
 const express = require('express')
-const mongoose = require ('mongoose')
 const postController = require('../controllers/postController')
 const router = express.Router()
-
-const app = express ()
-
-// Show Post
-router.get('/:id', postController.getPost, (req, res) => {
-    res.render('posts/show', { post: res.locals.post });
-  });
-  
-
 
 // POST /posts - Create a new post
 router.post('/', postController.createPost);
