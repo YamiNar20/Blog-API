@@ -9,3 +9,5 @@ mongoose.connection.once('open', () => console.log('Mongo is showing love'))
 app.listen(PORT, () => {
     console.log(`We are in! ${PORT}`)
 })
+
+//Summart: This code sets up the environment variables, establishes a connection to the MongoDB database, starts the server, and listens for incoming requests on a specified port.

@@ -11,3 +11,10 @@ scenarios:
             name: "Test"
             email: "test@example.com"
             password: "Password123"
+      - post:
+          url: "/posts"
+          json:
+            title: "Test"
+            email: "test@example.com"
+            password: "Password123"
+         
