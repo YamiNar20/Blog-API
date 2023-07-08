@@ -2,6 +2,21 @@
 
 <h1>Project Overview</h1>
 
+<h2>Required</2>
+
+Node.js and MongoDB Atlas Database
+
+<h2>How to start</h2>
+
+Copy the repository to your computer.
+Open the code in your editor and install all the necessary packages and dependencies.
+You will need to install the following dependencies: bycrpt, dotenv, express, jsonwebtoken, mongoose, and morgan.
+Run the command "npm install" to install all the dependencies listed in the package.json file.
+Make sure you have the following entries under "devDependencies" in your package.json file: artillery, jest, mongodb-memory-server, and supertest.
+Create a file called ".env" in the main folder and enter your MONGO_URI and SECRET in that file.
+Create a file called ".gitignore" and add the MONGO_URI and SECRET KEY to it to keep them private and not tracked by Git.
+
+
 <h2>Project Purpose</h2>
 
 The provided code represents an api for managing users and posts. The purpose of this api is to provide a set of endpoints that allow clients to perform various operations related to user and post managment.
